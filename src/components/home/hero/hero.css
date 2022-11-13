@@ -1,0 +1,76 @@
+.hero {
+ 
+  height: 37vh;
+  width: 100%;
+}
+.hero .container {
+  padding-top: 4%;
+}
+
+.hero h1 {
+  color: #000000;
+  font-size: 40px;
+}
+.hero p {
+  color: #fff;
+  opacity: 0.8;
+}
+form {
+  background-color: #fff;
+  border-radius: 15px;
+  margin-top: 50px;
+  padding: 0 20px;
+  box-shadow: 0 0 20px 0 rgb(112 121 138 / 18%);
+}
+form input {
+  padding: 10px;
+  width: 100%;
+  border: 1px solid rgba(128, 128, 128, 0.2);
+  margin-top: 5px;
+  border-radius: 5px;
+}
+form select{
+  padding: 10px;
+    width: 100%;
+    border: 1px solid rgba(128, 128, 128, 0.2);
+    margin-top: 5px;
+    border-radius: 5px;
+}
+select{
+  font-size: 14px;
+  color: black;
+  outline: none;
+}
+form span {
+  font-size: 14px;
+  color: grey;
+}
+input::placeholder {
+  font-size: 17px;
+  color: black;
+}
+form .box {
+  padding: 15px;
+  border-left: 1px solid rgba(128, 128, 128, 0.2);
+}
+form .box:nth-child(1) {
+  border-left: none;
+}
+form h4 {
+  font-weight: 500;
+}
+@media screen and (max-width: 800px) {
+  .hero .container {
+    padding-top: 30%;
+  }
+  form {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  form .box {
+    border-left: none;
+  }
+  form input {
+    width: 100%;
+  }
+}
